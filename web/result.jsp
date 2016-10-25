@@ -7,7 +7,7 @@
 <%@ page import="java.util.*" %>
 <html>
     <body>
-        <h1 align="center">Beer Recommendations JSP</h1>
+        <h1 align="center">Beer Recommendations for You (JSP)</h1>
         <% 
             List styles= (List) request.getAttribute("styles");
             Iterator it = styles.iterator();
